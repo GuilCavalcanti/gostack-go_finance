@@ -24,7 +24,12 @@
     "prettier"
   ],
   "rules": {
-    "no-underscore-dangle": "off",
+    "@typescript-eslint/consistent-type-assertions": "off",
+    "no-await-in-loop": "off",
+    "no-restricted-syntax": "off",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "no-param-reassign": "off",
+    "no-shadow": "off",
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
     "@typescript-eslint/camelcase": "off",
